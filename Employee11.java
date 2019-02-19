@@ -12,9 +12,9 @@ abstract class Person11 {
 	public abstract void work();
 	
 	
-	//public String toString(){
-	//	return "Name="+this.name+"::Gender="+this.gender;
-	//}
+	public String toString(){
+		return "Name="+this.name+"::Gender="+this.gender;
+	}
 
 	public void changeName(String newName) {
 		this.name = newName;
@@ -47,7 +47,7 @@ abstract class Person11 {
 		employee.work();
 		//using method implemented in abstract class - inheritance
 		employee.changeName("Pankaj Kumar");
-		System.out.println(employee);
+		System.out.println(employee);//.toString());
 	}
 
 }

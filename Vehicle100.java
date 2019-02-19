@@ -26,6 +26,6 @@ public class Vehicle100  implements Car,Bus
     {
         Vehicle100 v1=new Vehicle100();
         v1.distanceTravelled();
-        v1.speed();
+        v1.speed();?
     }
 }
